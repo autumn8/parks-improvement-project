@@ -1,0 +1,22 @@
+.hero {
+    background-image: url("parks.jpg");
+    background-size: cover;
+    background-position:bottom;
+    display: block;
+    height:700px;
+    max-height: 500px;
+    opacity: 0.95;
+}
+
+.hero__title{
+    position:absolute;
+    font-size: 2.7rem;
+    color:white;
+    left: 20px;
+    bottom:0;
+
+}
+
+.hero__wrapper {
+    position:relative;
+}

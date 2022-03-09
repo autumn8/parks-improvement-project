@@ -1,5 +1,10 @@
+:root {
+  --app-spacing : 10px;
+}
+
 body {
-  background-color: rgb(37, 37, 37);
+  
+  background-color: rgb(255, 255, 255);
 }
 
 .app {
@@ -7,7 +12,20 @@ body {
   flex-direction: column;  
 }
 
-.header {
-  height:30px;
-  background-color: red;
+.main {
+  display:flex;
 }
+
+.row {
+  padding: var(--app-spacing);
+  flex-basis: 100%;
+  display: flex;
+  column-gap:var(--app-spacing);  
+}
+
+.col {
+  padding: var(--app-spacing);
+  background-color: green ;
+  flex-grow:1;
+}
+
