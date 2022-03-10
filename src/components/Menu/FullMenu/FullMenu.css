@@ -1,0 +1,10 @@
+.header__full-menu{
+    display: flex;
+    column-gap: 10px; 
+    list-style: none;
+}
+
+.header__full-menu-link{    
+    text-decoration: none;
+    
+}

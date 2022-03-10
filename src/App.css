@@ -1,10 +1,13 @@
 :root {
-  --app-spacing : 10px;
+  --app-spacing : 30px;
+  --app-double-spacing: 40px;
+  --app-border-radius: 10px;
 }
 
 body {
-  
-  background-color: rgb(255, 255, 255);
+  color: rgb(30, 30, 31);
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(255, 255, 255);  
 }
 
 .app {
@@ -12,20 +15,26 @@ body {
   flex-direction: column;  
 }
 
-.main {
-  display:flex;
+.card {  
+  border-radius: var(--app-border-radius);
+  border: 1px solid grey;
+  padding: var(--app-double-spacing);
 }
 
-.row {
-  padding: var(--app-spacing);
+/* grid */
+.row {  
   flex-basis: 100%;
   display: flex;
   column-gap:var(--app-spacing);  
 }
 
 .col {
-  padding: var(--app-spacing);
-  background-color: green ;
-  flex-grow:1;
+  /* padding: var(--app-spacing);   */
+  
 }
+
+.half {
+  flex-basis: 50%;
+}
+
 
