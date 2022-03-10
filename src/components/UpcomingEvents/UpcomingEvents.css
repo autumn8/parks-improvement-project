@@ -1,0 +1,7 @@
+.upcoming-events__primary-image {
+    width:100%;
+    max-width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}

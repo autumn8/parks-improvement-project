@@ -1,9 +1,11 @@
 import { useState } from 'react'
 //import logo from './logo.svg'
 import './App.css'
-
+import { Routes, Route, Link } from "react-router-dom";
 import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
+import Home from "./views/Home";
+import Proposals from './views/Proposals/Proposals';
+import Events from './views/Events/Events';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,16 +13,11 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <Hero/>
-      <main className="main">
-        <div className="row">
-          <h2>Reclaiming public parks</h2>          
-        </div>        
-        <div className="row">
-          <div class="col">Left col</div>
-          <div class="col">Right col</div>
-        </div>
-    </main>
+      <Routes>
+        <Route path="/" element={<Home />} />   
+        <Route path="/proposals" element={<Proposals />} />        
+        <Route path="/events" element={<Events />} />        
+      </Routes>      
     </div>
   )
 }

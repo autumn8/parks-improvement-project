@@ -2,9 +2,9 @@ import './Hero.css'
 
 function Hero() {
   return (
-      <div class="hero__wrapper">        
-        <div class="hero"></div>
-        <h1 class="hero__title">PARKS IMPROVEMENT PROJECT</h1>
+      <div className="hero__wrapper">        
+        <div className="hero"></div>
+        <h1 className="hero__title">PARKS IMPROVEMENT PROJECT</h1>
       </div>
       
   )
