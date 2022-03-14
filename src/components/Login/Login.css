@@ -1,0 +1,11 @@
+.login-wrapper {
+    display:flex;
+    column-gap: var(--app-nav-spacing);
+}
+
+.login-btn {
+    border: 1px solid var(--app-primary-color);
+    color: var(--app-primary-color);
+    padding: 5px 10px;
+    border-radius: 5px;
+}

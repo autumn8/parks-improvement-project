@@ -1,11 +1,12 @@
 .hero {
-    background-image: url("parks.jpg");
+    background-image: url("park.jpg");
     background-size: cover;
-    background-position:bottom;
+    background-position:0 75%;
+
     display: block;
-    height:700px;
+    height:380px;
     max-height: 500px;
-    opacity: 0.95;
+    opacity: 0.95;    
 }
 
 .hero__title{

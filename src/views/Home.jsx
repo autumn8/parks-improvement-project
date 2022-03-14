@@ -7,10 +7,10 @@ function Home() {
     return (
         <div className="home">
             <Hero />
-            <main className="home__main">
+            <main className="main">
                 <section className="home__section">
                 <div className="row">
-                    <h2>What are we about?</h2>
+                    <h2>We are</h2>
                 </div>
                 <div className="row home__row">
                     <div className="home__icon-statement-wrapper">

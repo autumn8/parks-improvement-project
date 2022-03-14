@@ -1,10 +1,13 @@
 .header__full-menu{
     display: flex;
-    column-gap: 10px; 
+    column-gap: var(--app-nav-spacing); 
     list-style: none;
 }
 
 .header__full-menu-link{    
-    text-decoration: none;
-    
+    text-decoration: none;    
+}
+
+a, a:active, a:visited {
+    color: var(--app-primary-color);
 }
