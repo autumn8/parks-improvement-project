@@ -28,16 +28,16 @@ function getEvents() {
     return events;
 }
 
-function getUpcomingEvents() {
+function getFutureEvents() {
     const date = new Date().getTime();
     return events.filter(event =>  event.dateTime - date > 0);
 }
 
 function getNextEvent() {
-    const upcomingEvents = getUpcomingEvents();
-    upcomingEvents.sort((a,b)=> a.dateTime - b.dateTime);
-    console.log(upcomingEvents);
-    return upcomingEvents[0];
+    const futureEvents = getFutureEvents();
+    futureEvents.sort((a,b)=> a.dateTime - b.dateTime);
+    console.log(futureEvents);
+    return futureEvents[0];
 }
 
 function getPastEvents() {
@@ -45,4 +45,4 @@ function getPastEvents() {
 }
 
 
-export {getEvents, getNextEvent, getUpcomingEvents};
+export {getEvents, getNextEvent, getFutureEvents};

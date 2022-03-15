@@ -8,8 +8,7 @@
 
 body {
   color: rgb(30, 30, 31);
-  font-family: 'Montserrat', sans-serif;
-  background-color: rgb(206, 199, 199);  
+  font-family: 'Montserrat', sans-serif;  
   color: var(--app-primary-color);
 }
 
