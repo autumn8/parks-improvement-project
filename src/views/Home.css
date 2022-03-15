@@ -1,8 +1,4 @@
-.home__main {
-    padding: var(--app-spacing);
-    display:flex;
-    flex-direction: column;
-}
+
 
 .home__icon-statement-wrapper {
     max-width: 600px;

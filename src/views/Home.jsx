@@ -1,7 +1,7 @@
 import "./Home.css";
 import Hero from "../components/Hero/Hero";
-import UpcomingEvents from "../components/UpcomingEvents/UpcomingEvents";
 import IconStatement from "../components/IconStatement/IconStatement";
+import NextEvent from "../components/Event/NextEvent/NextEvent";
 
 function Home() {
     return (
@@ -28,7 +28,7 @@ function Home() {
                 
                 
                 
-                <UpcomingEvents/>
+                <NextEvent/>
             </main>
         </div>
     )

@@ -1,0 +1,17 @@
+.next-event {
+    display: flex;
+}
+
+.next-event__primary-image {
+    width:100%;
+    min-width:130px;
+    max-width: 180px;
+    width:100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;    
+}
+
+.next-event__primary-image:hover {    
+    border: 1px solid rgb(9, 124, 71);
+}
