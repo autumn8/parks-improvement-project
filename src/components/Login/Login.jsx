@@ -1,5 +1,8 @@
-import { useState } from "react";
 import "./Login.css";
+
+import { useState } from "react";
+import Button from '@mui/material/Button';
+
 
 function Login() {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -9,8 +12,9 @@ function Login() {
         :
         (
             <>
-                <div className="login-btn">Login</div> 
-                <div className="login-btn">Sign up</div> 
+                <Button color="primary">Hello</Button>
+                <Button color="primary" variant="outlined">Log in</Button>
+                <Button color="primary" variant="outlined">Sign up</Button>                 
             </>            
         )
         

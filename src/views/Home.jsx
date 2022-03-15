@@ -6,7 +6,7 @@ import NextEvent from "../components/Event/NextEvent/NextEvent";
 function Home() {
     return (
         <div className="home">
-            <Hero />
+            <Hero />            
             <main className="main">
                 <section className="home__section">
                 <div className="row">
