@@ -19,9 +19,9 @@ function NextEvent() {
             <img src={nextEvent.image} className="next-event__primary-image" />                 
         </Link>
         </div>
-      <div className="col">
+      {/* <div className="col">
         <p>Join us for an easter egg hunt at Saratoga park on Sunday the 17th of April</p>
-      </div>
+      </div> */}
       
       </div>
     </div>

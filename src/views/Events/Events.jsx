@@ -5,7 +5,7 @@ import "./Events.css";
 function Events() {
   return (
     <>
-    <Hero />
+    
     <main className="main">
         <section className="home__section">
         <div className="row">
