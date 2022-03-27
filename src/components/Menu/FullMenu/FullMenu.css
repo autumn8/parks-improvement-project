@@ -8,6 +8,4 @@
     text-decoration: none;    
 }
 
-a, a:active, a:visited {
-    color: var(--app-primary-color);
-}
+

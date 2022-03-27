@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import FullMenu from '../Menu/FullMenu/FullMenu';
 import UserMenu from '../UserMenu/UserMenu';
-import Typography from '@mui/material/Typography';
+import SpaIcon from '@mui/icons-material/Spa';
 import './Header.css';
 
 
@@ -10,22 +10,10 @@ function Header() {
     <div className="header__wrapper">
       <header className="header">
         <Link to="/" className="header__full-menu-link">
-          <Typography
-            variant="h6"
-            noWrap
-            component="h1"
-            sx={{ display: { xs: 'none', md: 'flex' } }}
-          >
-            PARKS IMPROVEMENT PROJECT
-          </Typography>
-          <Typography
-            variant="h6"
-            noWrap
-            component="h1"
-            sx={{ display: { xs: 'flex', md: 'none' } }}
-          >
-            PIP
-          </Typography>
+          <div className="header__title-wrapper">
+            <SpaIcon></SpaIcon>          
+            <h1 className="header__title">PARKS IMPROVEMENT PROJECT</h1>
+          </div>          
         </Link>
 
         <div className="header__spacer"></div>

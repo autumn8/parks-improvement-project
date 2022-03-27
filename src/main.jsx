@@ -6,15 +6,21 @@ import { BrowserRouter } from "react-router-dom"
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 const theme = createTheme({
-  palette: {
-    type: 'light',
-    primary: {
-      main: '#4d9e4c',
-    },
-    secondary: {
-      main: '#3ec2c7',
-    },
-  },
+   palette: {
+   //  type: 'light',
+    info : {
+      contrastText: "#fff",
+      main: "#5bc0de"
+    }
+  }
+   //  primary: {
+   //   contrastText: "#fff",
+   //   main: '#0000ff',
+   //  },
+  //   secondary: {
+  //     main: '#3ec2c7',
+  //   },
+ // },
 });
 
 ReactDOM.render(  

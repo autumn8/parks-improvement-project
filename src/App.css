@@ -3,7 +3,7 @@
   --app-double-spacing: 100px;
   --app-border-radius: 10px;
   --app-nav-spacing: 15px;
-  --app-primary-color: green;
+  --app-primary-color: #7a7a7a;
   --app-header-height: 80px;
   --app-column-count: 3;
 }
@@ -27,12 +27,12 @@
 
 body {
   color: rgb(30, 30, 31);
-  font-family: 'Roboto', sans-serif;
-  color: var(--app-primary-color);
+  font-family: 'Montserrat', sans-serif;  
 }
 
 .app {
   background-color: white;   
+  color: var(--app-primary-color);
   position:relative;
   display:flex;
   flex-direction: column;  
@@ -52,6 +52,11 @@ body {
   padding: var(--app-double-spacing);
 }
 
+.flex-center__vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 /* grid */
 .row {  
   flex-basis: 100%;
@@ -73,6 +78,16 @@ body {
 }
 .half {
   flex-basis: 50%;
+}
+
+
+.Button {
+  color: white;
+}
+
+.circle-border {
+  border-radius: 50%;  
+  border: 1px solid var(--app-primary-color);
 }
 
 
