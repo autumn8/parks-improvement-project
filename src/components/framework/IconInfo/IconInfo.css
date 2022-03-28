@@ -1,0 +1,13 @@
+.info-icon__row {
+    column-gap: 20px;
+}
+
+.info-icon__title {
+    margin-top: 0;
+    margin-bottom:10px;
+}
+
+.info-icon__desc {
+    font-size: 0.92rem;
+    line-height: 1.5;
+}
