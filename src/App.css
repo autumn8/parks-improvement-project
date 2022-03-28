@@ -26,20 +26,40 @@
 }
 
 body {
+  background-color: #b1d3a1;      
+  /* background-repeat: repeat;
+  background-image: url(/plantTexture.png);
+  background-size: contain;
+  background-attachment: fixed; */
+  width: 100%;
+  height: 200px;
   color: rgb(30, 30, 31);
   font-family: 'Montserrat', sans-serif;  
 }
 
 .app {
-  background-color: white;   
-  color: var(--app-primary-color);
+  background-color: rgb(255, 255, 255);   
+  color: var(--app-primary-color);  
   position:relative;
   display:flex;
   flex-direction: column;  
   margin: 0 auto;
+  max-width: 1280px;
+  box-shadow: 20px 20px 10px grey;
+  box-shadow: 12px 0 15px -8px rgba(93, 121, 93, 0.5), -12px 0 15px -8px rgba(93, 121, 93, 0.5);
+  /* border-left: 1px solid rgb(204, 203, 203);
+  border-right: 1px solid rgb(204, 203, 203); */
+  
 }
 
-.main {
+.app__h2 {
+  margin-top:50px;
+  margin-bottom: 0;
+  font-size: 2.3rem;
+  font-weight: 400;
+}
+
+.main {  
   padding: var(--app-spacing);
   display:flex;
   flex-direction: column;

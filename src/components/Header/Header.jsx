@@ -11,14 +11,13 @@ function Header() {
       <header className="header">
         <Link to="/" className="header__full-menu-link">
           <div className="header__title-wrapper">
-            <SpaIcon></SpaIcon>          
+            <SpaIcon color="primary"></SpaIcon>          
             <h1 className="header__title">PARKS IMPROVEMENT PROJECT</h1>
           </div>          
         </Link>
 
         <div className="header__spacer"></div>
-        <FullMenu />
-        <UserMenu />
+        <FullMenu />        
       </header>
 
     </div>
