@@ -18,13 +18,11 @@
     font-weight: 400;
 }
 
-.home-runner {
-    margin: 90px 0 40px -70px;    
-    background-image: url(/parkRunner.png);
-    background-size: cover;    
-    width: 467px;  
-    height: 400px;  
-    display: block;
+.home-runner {  
+    margin-top:30px; 
+    width:100%;     
+    max-width: 550px;
+    min-width: 350px;
 }
 
 .home-rider {   

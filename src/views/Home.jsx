@@ -18,7 +18,11 @@ function Home() {
                         <Button component={RouterLink} to="/about" variant="contained" color="info" sx={{width: 150}}>
                             Read more
                         </Button>
-                        <div className="home-runner"></div>
+                        
+                            <div><img src="/parkRunner.png" alt="" className="home-runner" /></div>
+                        
+                        
+                        
                         <h2 className="app__h2">How can I get involved?</h2>
                         <div className="row home-get-involved">
                             <div className="col home-get-inolved__cols3">
