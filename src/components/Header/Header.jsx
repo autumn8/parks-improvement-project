@@ -7,12 +7,24 @@ import { useState } from "react";
 import useMediaQuery from '@mui/material/useMediaQuery';
 import {IconButton, Drawer} from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-
-
+// import { makeStyles } from "@material-ui/core/styles";
+// const useStyles = makeStyles({
+//   list: {
+//     width: 250
+//   },
+//   fullList: {
+//     width: "auto"
+//   },
+//   paper: {
+//     background: "blue"
+//   }
+// });
 
 function Header() {
+  
   let header;  
-  const isMobile = useMediaQuery('(max-width:600px)');
+  // const classes = useStyles();
+  const isMobile = useMediaQuery('(max-width:760px)');
   const [state, setState] = useState({left:false});
 
   const toggleDrawer = (anchor, open) => (event) => {
@@ -37,14 +49,13 @@ function Header() {
           </IconButton>
     <Drawer
       anchor="left"
-      open={state.left}
-      onClose={toggleDrawer('left', false)}
+      open={state.left}      
+      onClose={toggleDrawer('left', false)}      
     >
       <Link to="/about" className="header__full-menu-link">
-        <div className="header__title-wrapper">
-          <SpaIcon color="primary"></SpaIcon>
+        
           <h4 className="header__title">About</h4>
-        </div>
+        
       </Link>
     </Drawer>
     <div className="header__spacer"></div>
@@ -68,11 +79,11 @@ function Header() {
     </>;
   }
   return (
-    <div className="header__wrapper">
+    <>
       <header className="header">
       {header}
       </header>
-    </div>
+    </>
 
   )
 }

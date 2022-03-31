@@ -13,14 +13,15 @@
     margin-top:50px; 
     width:100%;     
     max-width: 500px;
-    min-width: 350px;
+    min-width: 330px;
 }
 
 .home-rider {   
-    margin-top:25px; 
+    margin-top:15px; 
+    margin-bottom:15px; 
     width:100%;     
     max-width: 740px;
-    min-width: 450px;
+    min-width: 520px;
     
 }
 
