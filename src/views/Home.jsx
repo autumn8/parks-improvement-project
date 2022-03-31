@@ -25,7 +25,7 @@ function Home() {
                         
                         <h2 className="app__h2">How can I get involved?</h2>
                         <div className="row home-get-involved">
-                            <div className="col home-get-inolved__cols3">
+                            <div className="col home-get-inolved__cols">
                                 <IconInfo>
                                     <h3 className="info-icon__title">Give a hand</h3>
                                     <p className="info-icon__desc">Come join us in person or maybe you have some other services or ideas you'd like to offer. </p>
@@ -34,7 +34,7 @@ function Home() {
                                     </Button>
                                 </IconInfo>
                             </div>
-                            <div className="col home-get-inolved__cols3">
+                            <div className="col home-get-inolved__cols">
                                 <IconInfo>
                                     <h3 className="info-icon__title">Donate</h3>
                                     <p className="info-icon__desc">We're self funded, so donations will help to cover the cost of future improvements & events.  </p>
@@ -43,7 +43,7 @@ function Home() {
                                     </Button>
                                 </IconInfo>
                             </div>
-                            <div className="col home-get-inolved__cols3">
+                            <div className="col home-get-inolved__cols">
                                 <IconInfo>
                                     <h3 className="info-icon__title">Use Your Public Spaces</h3>
                                     <p className="info-icon__desc">We're trying to foster community and promote active mobility for healthier, happier and safer neighbourhoods.  </p>
@@ -51,7 +51,7 @@ function Home() {
                             </div>
                         </div>
 
-                        <div className="home-rider"></div>
+                        <div><img src="/parkRider.png" alt="" className="home-rider" /></div>
                         
                     </div>
 

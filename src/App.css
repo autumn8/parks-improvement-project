@@ -88,6 +88,21 @@ body {
   column-count: var(--app-column-count);
 }
 
+.app__h2 {
+  margin-top:50px;
+  margin-bottom: 0;
+  font-size: 2.3rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 800px) {
+  .app__h2{
+      font-size: 1.7rem;
+  }
+}
+
+
+
 
 .cols-2{
   column-count: 2;

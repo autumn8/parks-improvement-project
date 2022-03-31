@@ -1,21 +1,12 @@
 .home__icon-statement-wrapper {
     max-width: 600px;
 }
-.home__section {         
-}
 
 .home-about-us__text {
     max-width: 550px;
     line-height: 1.7;
     text-align: center;
     margin: 30px 0;
-}
-
-.app__h2 {
-    margin-top:50px;
-    margin-bottom: 0;
-    font-size: 2.3rem;
-    font-weight: 400;
 }
 
 .home-runner {  
@@ -26,23 +17,34 @@
 }
 
 .home-rider {   
-    margin: 120px 0 0px -70px;     
-    background-repeat: no-repeat;
-    background-image: url(/parkRider.png);
-    background-size: 715px;
-    width: 715px;
-    height: 400px;
+    margin-top:30px; 
+    width:100%;     
+    max-width: 790px;
+    min-width: 450px;
+    
 }
 
 
 .home-get-involved {
     margin-top: 55px;
     max-width: 1300px;
+    flex-wrap: wrap;
 }
 
-.home-get-inolved__cols3{
-    flex-basis: 33%;
+.home-get-inolved__cols{
+    flex-basis: calc(33% - var(--app-spacing));
+    margin-bottom: 50px;
 }
+
+@media screen and (max-width: 800px) {
+    .home-get-inolved__cols{
+        margin:0 10%;
+        flex-basis: 100%;
+        margin-bottom: 50px; 
+    }
+  }
+
+
 
 .home-grass-divider {     
     background-repeat: repeat-x;
