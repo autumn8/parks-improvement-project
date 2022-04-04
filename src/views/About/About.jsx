@@ -13,43 +13,43 @@ function About() {
         </div>
         <div className="row">
             <div className="col auto-col">
-            <p>The Parks Improvement Project was started by Sean & Hilton.fa   
+            <p>The Parks Improvement Project was started by Shaun & Hilton.fa   
               asdfasdfasdf asdf asfd asdfa sdf
                asdfasdfasdf asdf falseasdfa sdfasdf
                 asdfasdfasdffdsaf asdf
             </p>
-            <p>The Parks Improvement Project was started by Sean & Hilton.fa   
+            <p>The Parks Improvement Project was started by Shaun & Hilton.fa   
               asdfasdfasdf asdf asfd asdfa sdf
                asdfasdfasdf asdf falseasdfa sdfasdf
                 asdfasdfasdffdsaf asdf
             </p>
 
-            <p>The Parks Improvement Project was started by Sean & Hilton.fa   
+            <p>The Parks Improvement Project was started by Shaun & Hilton.fa   
               asdfasdfasdf asdf asfd asdfa sdf
                asdfasdfasdf asdf falseasdfa sdfasdf
                 asdfasdfasdffdsaf asdf
             </p>
-            <p>The Parks Improvement Project was started by Sean & Hilton.fa   
+            <p>The Parks Improvement Project was started by Shaun & Hilton.fa   
               asdfasdfasdf asdf asfd asdfa sdf
                asdfasdfasdf asdf falseasdfa sdfasdf
                 asdfasdfasdffdsaf asdf
             </p>
-            <p>The Parks Improvement Project was started by Sean & Hilton.fa   
+            <p>The Parks Improvement Project was started by Shaun & Hilton.fa   
               asdfasdfasdf asdf asfd asdfa sdf
                asdfasdfasdf asdf falseasdfa sdfasdf
                 asdfasdfasdffdsaf asdf
             </p>
-            <p>The Parks Improvement Project was started by Sean & Hilton.fa   
+            <p>The Parks Improvement Project was started by Shaun & Hilton.fa   
               asdfasdfasdf asdf asfd asdfa sdf
                asdfasdfasdf asdf falseasdfa sdfasdf
                 asdfasdfasdffdsaf asdf
             </p>
-            <p>The Parks Improvement Project was started by Sean & Hilton.fa   
+            <p>The Parks Improvement Project was started by Shaun & Hilton.fa   
               asdfasdfasdf asdf asfd asdfa sdf
                asdfasdfasdf asdf falseasdfa sdfasdf
                 asdfasdfasdffdsaf asdf
             </p>
-            <p>The Parks Improvement Project was started by Sean & Hilton.fa   
+            <p>The Parks Improvement Project was started by Shaun & Hilton.fa   
               asdfasdfasdf asdf asfd asdfa sdf
                asdfasdfasdf asdf falseasdfa sdfasdf
                 asdfasdfasdffdsaf asdf
