@@ -10,18 +10,20 @@
 }
 
 .home-runner {  
-    margin-top:50px; 
+    margin-top:70px; 
     width:100%;     
-    max-width: 500px;
+    max-width: 440px;
     min-width: 330px;
 }
 
-.home-rider {   
+.home-rider {     
+    margin-left: auto;
+    margin-right: auto;  
     margin-top:15px; 
     margin-bottom:15px; 
     width:100%;     
-    max-width: 740px;
-    min-width: 520px;
+    max-width: 750px;
+    min-width: 480px;
     
 }
 
