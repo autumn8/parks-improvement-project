@@ -36,3 +36,8 @@
     margin: 0 0 0 10px;
 }
 
+
+.drawer-list__title {
+    font-size: 0.75rem;
+}
+
