@@ -7,6 +7,9 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 const theme = createTheme({
   palette: {
+    background: {
+      paper: '#b1d3a1',
+    },
     type: 'light',
     info: {
       contrastText: "#fff",
