@@ -122,16 +122,6 @@ body {
   padding-bottom: 30px;
 }
 
-.app__info-intro {
-  max-width: 550px;
-  line-height: 1.7; 
-  margin: 30px 0;
-}
-
-.app__info-box { 
-    
-}
-
 @media screen and (max-width: 800px) {
   .app__h2{
       font-size: 1.7rem;

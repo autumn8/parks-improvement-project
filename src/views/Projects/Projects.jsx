@@ -1,5 +1,7 @@
 import "./Projects.css";
 
+import InfoCard from "../../components/framework/InfoCard/InfoCard";
+
 function Projects() {
     return (
         <div className="home">
@@ -10,26 +12,28 @@ function Projects() {
                 <section className="app__info">
                     <h1 className="app__h1">Saratoga Park</h1>
                     <p className="app__info-intro">
-                    A community initiative aimed at reinvigorating public spaces, encouraging active mobility & fostering community.
-                    A community initiative aimed at reinvigorating public spaces, encouraging active mobility & fostering community.
-                    A community initiative aimed at reinvigorating public spaces, encouraging active mobility & fostering community.
-                    A community initiative aimed at reinvigorating public spaces, encouraging active mobility & fostering community.
+                    Saratoga Park is beautiful park sitting between La Lucia and glenashley beach with old forest trees.
                     </p>
 
                 </section>
                 <section>
-                    <div className="row info__box">
-                        <div className="col ">
-                        <h1>Clean up</h1>
-                        <p>Trash was removed, grass cut, alien species removed, indigenous plants planted to encourage bio-diversity,  paiting done, toilets serviced.                        
-                        </p>
-                        </div>
-                        <div className="col">
-                            <img src="/cleanup.png" alt="" className="src" />
-                        </div>
-                    </div>
-                    
-
+                <InfoCard 
+                    headerText="Clean Up" 
+                    descText={<>
+                    <p>Trash was removed, gum poles painted, solar light installed.</p>
+                    <p>More texxt about cleanup etc.</p>
+                    </>} 
+                    imgSrc="/cleanup.png"
+                    align="right"
+                >                    
+                </InfoCard>
+                <InfoCard 
+                    headerText="Vegetation" 
+                    descText={<><p>Alien plants were removed, verge and lawns trimmed.</p></>} 
+                    imgSrc="/communityPlant.png"
+                    align="left"
+                >                    
+                </InfoCard>
                 </section>
             </main>
         </div>

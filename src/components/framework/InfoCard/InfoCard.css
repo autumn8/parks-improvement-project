@@ -1,0 +1,37 @@
+.info-card {
+    column-gap: 80px;
+    margin-top:80px;
+    flex-basis: 100%;        
+}
+
+
+.info-card:nth-child(2) .info-card__img-col {       
+   order: -1; 
+}
+
+@media screen and (max-width: 650px) {
+    .info-card {
+        flex-direction: column;
+    }
+
+    .info-card .info-card__img-col  {    
+        order: 0 !important; 
+     }
+     
+}
+
+.info-card__img-col {
+    margin: 0 40px;    
+}
+
+.info-card__info-col, .info-card__img-col {
+    flex-basis: 50%;
+}
+
+.info-card__h1 {
+    font-weight: 400;
+}
+
+.info-card__img {
+    width: 100%;    
+}
