@@ -1,13 +1,11 @@
 import "./InfoCard.css";
 
-function InfoCard({headerText, descText, imgSrc, align}) {
+function InfoCard({headerText, descText, imgSrc}) {
     return (
-        <div className="row info-card">
-            <div className="col info-card__info-col">
-                <h1 className="info-card__h1">{headerText}</h1>
-                <p>{descText}</p>
-            </div>
-            <div className="col info-card__img-col">
+        <div className="col info-card__col">            
+            <h1 className="info-card__h1">{headerText}</h1>
+            <div className='info-card__desc'>{descText}</div>            
+            <div className="info-card__img-col">
                 <img src={imgSrc} alt="" className="info-card__img"/>
             </div>
         </div>
