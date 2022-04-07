@@ -53,15 +53,16 @@ body {
   
 }
 
-.block-header__wrapper {
+.block-header__wrapper {  
   display: flex;
-  justify-content: center;
+  padding-top: 64px;
+  justify-content: center;    
 }
 
 .block-header {
   display: inline-block;   
   padding: 10px;
-  background-color: #b1d3a1;  
+  background-color: #c4dede;  
   color: white;
   font-size: 2.1rem;
   border-radius: 3px;
@@ -110,6 +111,7 @@ body {
 }
 
 .app__h1 {
+  text-align: center;
   margin-top:50px;
   margin-bottom: 0;
   font-size: 3rem;
@@ -134,6 +136,8 @@ body {
   width: 100%;
   max-width: 1202px;
   min-width: 610px;
+  margin-left:4%;
+  margin-right: 4%;
 }
 
 .app__info {

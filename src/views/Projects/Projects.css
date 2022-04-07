@@ -1,12 +1,47 @@
-.project__intro-info {
+.project__h1 {
+    margin-top:20px;
+}
+
+.project__intro {    
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.project__info-intro {
+@media screen and (max-width: 800px) {
+    .project__row {
+        flex-wrap: wrap;
+    }    
+}
+
+
+.project__intro-info {
     max-width: 550px;
     line-height: 1.7;
     text-align: center;
-    margin: 30px 0;
+    margin: 42px 0;
+}
+
+.project__header-divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; 
+    max-width:475px;   
+    width: 100%;
+    border-bottom: 1px solid var(--app-primary-color);
+    margin-top: 29px;
+    margin-top: 29px;
+    margin-bottom: 10px;
+}
+
+.project__header-stamp {    
+    border: 10px solid white;
+    position: absolute;
+    background-color: white;
+    background-image: url(/plantStamp4.png);
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;    
+    background-size: contain;    
 }
