@@ -27,6 +27,14 @@
     
 }
 
+.home-what-is-it {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 45px;
+}
+
 
 .home-get-involved {
     margin-top: 55px;

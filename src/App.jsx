@@ -10,8 +10,9 @@ import About from './views/About/About';
 function App() {
   
   return (
+    <><Header/>
     <div className="app">
-      <Header/>
+      
       <Routes>
         <Route path="/" element={<Home />} />   
         <Route path="/projects" element={<Projects />} />        
@@ -19,6 +20,8 @@ function App() {
         <Route path="/about" element={<About />} />        
       </Routes>      
     </div>
+    </>
+    
   )
 }
 

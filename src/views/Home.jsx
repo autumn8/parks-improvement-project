@@ -9,27 +9,28 @@ import { Link as RouterLink } from "react-router-dom";
 function Home() {
     return (
         <div className="home">
-            <Hero />
+            <div className="app__hero2-wrapper">
+                <img src="/parkCommunity.png" alt="" className="app__hero2" />
+            </div>
             <main className="main">
                 <section className="home__section">
                     <div className="flex-center__vertical">
-                        <h2 className="app__h2">What is it?</h2>
-                        <p className="home-about-us__text">A community initiative aimed at reinvigorating public spaces, encouraging active mobility & fostering community.</p>
-                        <Button component={RouterLink} to="/about" variant="contained" color="info" sx={{width: 150}}>
-                            Read more
-                        </Button>
-                        
-                            <div><img src="/parkRunner.png" alt="" className="home-runner" /></div>
-                        
-                        
-                        
+                        <div className="home-what-is-it">
+                            <h2 className="app__h2">What is it?</h2>
+                            <p className="home-about-us__text">A community initiative aimed at reinvigorating public spaces, encouraging active mobility & fostering community.</p>
+                            <Button component={RouterLink} to="/about" variant="contained" color="info" sx={{ width: 150 }}>
+                                Read more
+                            </Button>
+                        </div>
+
+                        <div><img src="/parkRunner.png" alt="" className="home-runner" /></div>
                         <h2 className="app__h2">How can I get involved?</h2>
                         <div className="row home-get-involved">
                             <div className="col home-get-inolved__cols">
                                 <IconInfo>
                                     <h3 className="info-icon__title">Give a hand</h3>
                                     <p className="info-icon__desc">Come join us in person or maybe you have some other services or ideas you'd like to offer. </p>
-                                    <Button component={RouterLink} to="/about" variant="contained" color="info" sx={{width: 150}}>
+                                    <Button component={RouterLink} to="/about" variant="contained" color="info" sx={{ width: 150 }}>
                                         Read more
                                     </Button>
                                 </IconInfo>
@@ -38,7 +39,7 @@ function Home() {
                                 <IconInfo>
                                     <h3 className="info-icon__title">Donate</h3>
                                     <p className="info-icon__desc">We're self funded, so donations will help to cover the cost of future improvements & events.  </p>
-                                    <Button component={RouterLink} to="/about" variant="contained" color="success" sx={{width: 150}}>
+                                    <Button component={RouterLink} to="/about" variant="contained" color="success" sx={{ width: 150 }}>
                                         Donate
                                     </Button>
                                 </IconInfo>
@@ -52,7 +53,7 @@ function Home() {
                         </div>
 
                         <div><img src="/parkRider.png" alt="" className="home-rider" /></div>
-                        
+
                     </div>
 
 
