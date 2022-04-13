@@ -28,27 +28,32 @@
 }
 
 .home-what-is-it {
+    width: 100%;
     display:flex;
     flex-direction: column;
     align-items: center;
     background-color: aliceblue;
-    padding: 45px;
+    padding: 60px;
 }
 
 
-.home-get-involved {
+.get-involved {
     margin-top: 55px;
     max-width: 1300px;
     flex-wrap: wrap;
 }
 
-.home-get-inolved__cols{
+.get-involved__header {
+    margin-top: 50px;
+}
+
+.get-inolved__cols{
     flex-basis: calc(33% - var(--app-spacing));
     margin-bottom: 50px;
 }
 
 @media screen and (max-width: 800px) {
-    .home-get-inolved__cols{
+    .get-inolved__cols{
         margin:0 10%;
         flex-basis: 100%;
         margin-bottom: 50px; 

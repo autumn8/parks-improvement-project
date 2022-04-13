@@ -24,9 +24,9 @@ function Home() {
                         </div>
 
                         <div><img src="/parkRunner.png" alt="" className="home-runner" /></div>
-                        <h2 className="app__h2">How can I get involved?</h2>
-                        <div className="row home-get-involved">
-                            <div className="col home-get-inolved__cols">
+                        <h2 className="app__h2 get-involved__header">How can I get involved?</h2>
+                        <div className="row get-involved">
+                            <div className="col get-inolved__cols">
                                 <IconInfo>
                                     <h3 className="info-icon__title">Give a hand</h3>
                                     <p className="info-icon__desc">Come join us in person or maybe you have some other services or ideas you'd like to offer. </p>
@@ -35,7 +35,7 @@ function Home() {
                                     </Button>
                                 </IconInfo>
                             </div>
-                            <div className="col home-get-inolved__cols">
+                            <div className="col get-inolved__cols">
                                 <IconInfo>
                                     <h3 className="info-icon__title">Donate</h3>
                                     <p className="info-icon__desc">We're self funded, so donations will help to cover the cost of future improvements & events.  </p>
@@ -44,7 +44,7 @@ function Home() {
                                     </Button>
                                 </IconInfo>
                             </div>
-                            <div className="col home-get-inolved__cols">
+                            <div className="col get-inolved__cols">
                                 <IconInfo>
                                     <h3 className="info-icon__title">Use Your Public Spaces</h3>
                                     <p className="info-icon__desc">We're trying to foster community and promote active mobility for healthier, happier and safer neighbourhoods.  </p>

@@ -5,9 +5,7 @@ import InfoCard from "../../components/framework/InfoCard/InfoCard";
 function Projects() {
     return (
         <div className="home">
-            <div className="app__hero2-wrapper">
-                <img src="/parkCommunity.png" alt="" className="app__hero2" />
-            </div>
+            
             <main className="main">
                 <section className="project__intro">
                     <h1 className="app__h1 project__h1">SARATOGA PARK</h1>

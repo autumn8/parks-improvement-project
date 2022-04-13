@@ -1,0 +1,19 @@
+.event__img-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.event__h1 {
+    margin-top:20px;
+}
+
+.event__h2 {
+    font-size: 1rem;
+}
+
+
+.event__img {
+    width: 100%;
+    max-width: 500px;
+}

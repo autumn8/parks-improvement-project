@@ -60,7 +60,7 @@ body {
   padding: 10px;
   background-color: #c4dede;  
   color: white;
-  font-size: 2.1rem;
+  font-size: 1.9rem;
   border-radius: 3px;
 }
 
@@ -107,13 +107,12 @@ body {
 }
 
 .app__h1 {
-  text-align: center;
-  margin-top:50px;
+  margin-top:0;
+  text-align: center;  
   margin-bottom: 0;
-  font-size: 3rem;
+  font-size: 2.2rem;
   font-weight: 400;
 }
-
 
 
 .app__hero2-wrapper {
@@ -121,11 +120,10 @@ body {
   justify-content: center;
 }
 
-.app__hero2 { 
-  margin-top: 63px;
+.app__hero2 {   
   margin-bottom: 15px;
   width: 100%;
-  max-width: 1202px;
+  max-width: 1024px;
   min-width: 610px;
   margin-left:4%;
   margin-right: 4%;

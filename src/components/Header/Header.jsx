@@ -36,8 +36,7 @@ function Header() {
     setState({ ...state, [anchor]: open });
   };
 
-  const onClickNav = (route, event) => {
-    console.log(route.toLowerCase());
+  const onClickNav = (route, event) => {    
     navigate(`/${route.toLowerCase()}`);
     setState({ ...state, ['left']: false });
   }
